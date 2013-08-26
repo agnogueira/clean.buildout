@@ -12,7 +12,7 @@ https://pypi.python.org/pypi/virtualenv
 Após clonar, garanta que você esteja utilizando um virtualenv, e acesse a pasta
 **cd clean.buildout** e execute os comandos para a montagem do ambiente.::
 
-    penv2.7 bootstrap.py
+    penv2.7 python bootstrap.py
     bin/buildout -N -t 30
 
 Ao final você terá o ambiente devidamente contruído, então basta subir a
